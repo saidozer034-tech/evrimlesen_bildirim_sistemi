@@ -1,0 +1,18 @@
+classDiagram
+    class Notification {
+        <<interface>>
+        +sendMessage(message, receiver)
+    }
+    class SmsNotification {
+        +sendMessage(message, receiver)
+    }
+    class EmailNotification {
+        +sendMessage(message, receiver)
+    }
+    class NotificationFactory {
+        +createNotification(type) Notification
+    }
+
+    Notification <|.. SmsNotification
+    Notification <|.. EmailNotification
+    NotificationFactory ..> Notification : Creates
