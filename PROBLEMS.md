@@ -10,3 +10,6 @@ Bu projeye başlarken, tüm bildirim mantığı tek bir sınıf içinde ve karma
 AI ile yapılan tartışma sonucunda listeme şu eklemeler yapılmıştır:
 - **Liskov Substitution Prensibi:** Mevcut yapıda farklı bildirim tipleri aynı arayüzü paylaşmadığı için birbirinin yerine geçemiyor.
 - **Yaratım Karmaşıklığı:** Nesne yaratma mantığı (new anahtar kelimesi) istemci kodun içinde, bu da esnekliği öldürüyor.
+
+  
+"Faz 3 sonunda GitHub Actions ve Merge Conflict süreçleri başarıyla yönetilmiştir."
