@@ -1,4 +1,3 @@
-package src;
 
 public class NotificationFactory {
     public static Notification createNotification(String type) {
